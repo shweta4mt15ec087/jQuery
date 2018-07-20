@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery</title>
+        <script src ="js/jquery-3.3.1.js"></script>"
+        <script>
+        $(function(){
+            size = 16;
+            $("#btn").click(function(){
+            $("#content").html("<h3>welcome to jQuery world...</h3>");
+                             });
+            
+            $("p").hover(function(){
+                $(this).css("background-color","yellow");
+                
+            });
+            
+              $("p").mouseleave(function(){
+                $(this).css("background-color","white");
+                
+            });
+            size = 16;
+              $("#plus").click(function(){
+                  $("body").css("font-size",size++);
+                  
+              });  
+               $("#minus").click(function(){
+                  $("body").css("font-size",size--);
+                  
+              }) 
+        });
+        </script>
+    </head>
+       <button id="plus">+</button>
+       <button id="minus">-</button>
+       <hr/>
+        <button id="btn">click</button>
+        <div id="content"></div>
+       
+        <P>
+            jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
+        </P>
+         <P>
+            jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
+        </P>
+         <P>
+            jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
+        </P>
+         <P>
+            jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
+        </P>
+         <P>
+            jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
+        </P>
+    </body>
+</html>
